@@ -1,0 +1,26 @@
+Extract important long-term memories from this conversation.
+
+Use ONLY these types:
+- fact
+- preference
+- goal
+- project
+- relationship
+
+For each memory include:
+- type
+- content
+- importance (0.0 to 1.0)
+
+Importance rules:
+- 0.9–1.0 → core identity, major goals
+- 0.7–0.8 → strong preferences, active projects
+- 0.4–0.6 → useful but not critical
+- 0.1–0.3 → low signal
+
+Rules:
+- Keep memories short and atomic
+- No duplicates
+- No temporary info
+
+Return JSON list only.
